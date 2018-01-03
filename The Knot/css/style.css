@@ -1,884 +1,646 @@
 body{
-
-    padding: 0px;
-    margin:0px;
-
+padding:0px;
+margin:0px;
 }
-
 .one{
-
-    margin: 0px;
-    padding: 0px;
-    width: 100%;
-    height: 750px;
-    background-image: url("../images/knot2.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+margin:0px;
+padding:0px;
+width:100%;
+height:750px;
+background-image:url("../images/knot2.jpg");
+background-repeat:no-repeat;
+background-size:cover;
+background-attachment:fixed;
 }
-
-
 .theknot{
-
-    margin: 0px auto;
-    width: 820px;
+margin:0pxauto;
+width:820px;
 }
-
 .compname{
-
-    margin: 0px auto;
-    width: 420px;
-    padding-top: 160px;
-    padding-bottom: 50px;
+margin:0pxauto;
+width:420px;
+padding-top:160px;
+padding-bottom:50px;
 }
-
-.compname h1{
-    margin: 0px;
-    padding: 0px;
-    font-size: 110px;
-    letter-spacing: 3px;
-    font-family: philosopher;
-    position: relative;
-    animation: brandname 3s;
+.compnameh1{
+margin:0px;
+padding:0px;
+font-size:110px;
+letter-spacing:3px;
+font-family:philosopher;
+position:relative;
+animation:brandname3s;
 }
-
-@keyframes brandname{
-
-    from{ font-size: 0px;}
-    to{ font-size:110px;}
-
+@keyframesbrandname{
+from{font-size:0px;}
+to{font-size:110px;}
 }
-
-
 .headingone{
-
-    text-align: center;
-    color: #FFFFFF;
+text-align:center;
+color:#FFFFFF;
 }
-
 .headingtwo{
-
-    text-align: center;
-    color: #FCEF8B;
+text-align:center;
+color:#FCEF8B;
 }
-
 .new{
-
-    margin: 0px auto;
-    width: 420px;
+margin:0pxauto;
+width:420px;
 }
-
-.new p{
-
-    margin: 0px;
-     padding: 0px;
-     font-size: 42px;
-     letter-spacing: 3px;
-     text-align: center;
-     color: #FFFFFF;
-     font-style: italic;
+.newp{
+margin:0px;
+padding:0px;
+font-size:42px;
+letter-spacing:3px;
+text-align:center;
+color:#FFFFFF;
+font-style:italic;
 }
-
-.new button{
-
-    padding: 10px 40px;
-    font-size: 20px;
-    border: none;
-    background-color:#FCEF8B;
-    text-transform: uppercase;
-    margin-top: 30px;
-    margin-left: 105px;
-    transition: background-color 1s;
-    cursor: pointer;
+.newbutton{
+padding:10px40px;
+font-size:20px;
+border:none;
+background-color:#FCEF8B;
+text-transform:uppercase;
+margin-top:30px;
+margin-left:105px;
+transition:background-color1s;
+cursor:pointer;
 }
-
-.new button:hover{
-
-    color: #FFFFFF;
-    background-color: black;
+.newbutton:hover{
+color:#FFFFFF;
+background-color:black;
 }
-
 .menu{
-
-    float: right;
+float:right;
 }
-
-.menu ul{
-
-    padding: 0px;
-    display: flex;
-    position: fixed;
-    z-index: 50;
+.menuul{
+padding:0px;
+display:flex;
+position:fixed;
+z-index:50;
 }
-
-.menu ul li{
-
-    list-style-type: none;
-    padding: 10px;
-    margin-left: 8px;
+.menuulli{
+list-style-type:none;
+padding:10px;
+margin-left:8px;
 }
-
-.menu a{
-
-    text-decoration: none;
-    color:#BDB368;
-    transition: color 0.5s linear;
-    position: relative;
-    top: 6px;
-
+.menua{
+text-decoration:none;
+color:#BDB368;
+transition:color0.5slinear;
+position:relative;
+top:6px;
 }
-
-.menu a:hover{
-
-  color:  #FCEF8B;
+.menua:hover{
+color:#FCEF8B;
 }
-
 #selected{
-
-    color:  #FCEF8B;
+color:#FCEF8B;
 }
-
 .bag{
-
-    float:right;
-    margin-left: 10px;
+float:right;
+margin-left:10px;
 }
-
 .two{
-
-    width:100%;
-    background-color: #FFFFFF;
-    height: 750px;
+width:100%;
+background-color:#FFFFFF;
+height:750px;
 }
-
 .brandnew{
-
-    width: 1150px;
-    margin: 0px auto;
+width:1150px;
+margin:0pxauto;
 }
-
 .bnhead{
-
-    width: 550px;
-    margin: 0px auto;
-    padding-top: 70px;
-
+width:550px;
+margin:0pxauto;
+padding-top:70px;
 }
-
-.bnhead h1, h3{
-
-    margin: 0px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    line-height: 50px;
+.bnheadh1,h3{
+margin:0px;
+text-transform:uppercase;
+letter-spacing:2px;
+line-height:50px;
 }
-
 .sechead1{
- font-size: 50px;
- font-family: Verdana, Geneva, Tahoma, sans-serif;
- letter-spacing: 5px;
- animation: bnanime 2s ease;
-text-align: center;
-position: relative;
+font-size:50px;
+font-family:Verdana,Geneva,Tahoma,sans-serif;
+letter-spacing:5px;
+animation:bnanime2sease;
+text-align:center;
+position:relative;
 }
-
 .sechead2{
-
-    font-size: 20px;
-    font-weight: lighter;
-    font-style: italic;
-    animation: bnanime 2s ease-in-out;
-  text-align: center;
-position: relative;
+font-size:20px;
+font-weight:lighter;
+font-style:italic;
+animation:bnanime2sease-in-out;
+text-align:center;
+position:relative;
 }
-
-@keyframes bnanime{
-
-    from{ left:150px; color: white; }
-    to{ left: 0px; color: black; }
-
+@keyframesbnanime{
+from{left:150px;color:white;}
+to{left:0px;color:black;}
 }
-
 .clear{
-    clear: both;
+clear:both;
 }
-
 .products{
-
-    margin-top: 70px;
+margin-top:70px;
 }
-
-.products ul{
-
-    list-style-type: none;
-    display: flex;
-    margin: 0px;
-    padding: 0px;
-   
+.productsul{
+list-style-type:none;
+display:flex;
+margin:0px;
+padding:0px;
 }
-
-.products ul li{
-
-    margin-left: 33px;
-    margin-right: 33px;
+.productsulli{
+margin-left:33px;
+margin-right:33px;
 }
-
 .name{
-
-    font-family: philosopher;
-    text-align: center;
-    color: dimgrey;
-    font-size: 18px;
+font-family:philosopher;
+text-align:center;
+color:dimgrey;
+font-size:18px;
 }
-
 .doller{
-     font-family: philosopher;
-    font-size: 30px;
-    text-align: center;
-    letter-spacing: 1px;
+font-family:philosopher;
+font-size:30px;
+text-align:center;
+letter-spacing:1px;
 }
-
 .view{
-
-    font-family: philosopher;
-    margin-left: 52px;
-    padding: 9px 14px;
-    border: none;
-    background-color: #FCEF8B;
-    font-size:16px;
-    cursor: pointer;
-    transition: background-color 1s;
+font-family:philosopher;
+margin-left:52px;
+padding:9px14px;
+border:none;
+background-color:#FCEF8B;
+font-size:16px;
+cursor:pointer;
+transition:background-color1s;
 }
-
 .view:hover{
-
-    color: #FFFFFF;
-    background-color: black;
+color:#FFFFFF;
+background-color:black;
 }
-
 .tiehv{
-
-    cursor: pointer;
-    transition: transform 0.6s;
+cursor:pointer;
+transition:transform0.6s;
 }
-
 .tiehv:hover{
-
-    transform: scale(1.2);
+transform:scale(1.2);
 }
-
 .three{
-
-    width: 100%;
-    height: 750px;
-    background-image: url("../images/knot1.jpg");
-    background-size: cover;
-    background-attachment: fixed;
+width:100%;
+height:750px;
+background-image:url("../images/knot1.jpg");
+background-size:cover;
+background-attachment:fixed;
 }
-
 .hello{
-
-    width: 1150px;
-    margin: 0px auto;
+width:1150px;
+margin:0pxauto;
 }
-
 .hcontent{
-
-    background-color: rgba(252, 239, 139, 1);
-    width: 550px;
-    display: inline-block;
-    margin-top: 130px;
-    position: relative;
-    animation: hellocontainer 2s ease-in;
-
+background-color:rgba(252,239,139,1);
+width:550px;
+display:inline-block;
+margin-top:130px;
+position:relative;
+animation:hellocontainer2sease-in;
 }
-
-@keyframes hellocontainer{
-
-    from{ opacity: 0.120; right: 100px; }
-    to{ right:0px; }
+@keyframeshellocontainer{
+from{opacity:0.120;right:100px;}
+to{right:0px;}
 }
-
-.hcontent h1{
-
-    margin: 0px;
-    margin-top: 50px;
-    padding: 0px;
-    text-align: center;
-    font-size: 47px;
-    text-transform: uppercase;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    letter-spacing: 5px;
+.hcontenth1{
+margin:0px;
+margin-top:50px;
+padding:0px;
+text-align:center;
+font-size:47px;
+text-transform:uppercase;
+font-family:Verdana,Geneva,Tahoma,sans-serif;
+letter-spacing:5px;
 }
-
-.hcontent h1 + p{
-
-    margin: 0px;
-    margin-top: 10px;
-    padding: 0px;
-    text-align: center;
-    letter-spacing: 4px;
-    font-size: 21px;
-    font-style: italic;
-    color: dimgrey;
-
+.hcontenth1+p{
+margin:0px;
+margin-top:10px;
+padding:0px;
+text-align:center;
+letter-spacing:4px;
+font-size:21px;
+font-style:italic;
+color:dimgrey;
 }
-
 .aboutus{
-
-    padding: 55px;
-    text-align: center;
-    line-height: 25px;
-    margin-bottom: 20px;
-    margin-top: 0px;
-    padding-top: 40px;
-
+padding:55px;
+text-align:center;
+line-height:25px;
+margin-bottom:20px;
+margin-top:0px;
+padding-top:40px;
 }
-
-.hcontent button{
-
-    background-color: rgba(50, 51, 50, 1);
-    text-transform: uppercase;
-    border: none;
-    padding: 10px 35px;
-    color: #fff;
-    margin: 0px 0px 45px 200px;
-    font-size: 17px;
-    cursor: pointer;
-    transition: box-shadow 1s, transform 2s;
+.hcontentbutton{
+background-color:rgba(50,51,50,1);
+text-transform:uppercase;
+border:none;
+padding:10px35px;
+color:#fff;
+margin:0px0px45px200px;
+font-size:17px;
+cursor:pointer;
+transition:box-shadow1s,transform2s;
 }
-
-.hcontent button:hover{
-
-    box-shadow: 5px 5px 5px black ;
-    transform: rotateY(360deg);
+.hcontentbutton:hover{
+box-shadow:5px5px5pxblack;
+transform:rotateY(360deg);
 }
-
 .fourth{
-
-    width: 100%;
-    height: 965px;
-    background-color: #fff;
+width:100%;
+height:965px;
+background-color:#fff;
 }
-
 .lnp{
-
-    margin: 0px auto;
-    width: 1349px;
+margin:0pxauto;
+width:1349px;
 }
-
 .passionhead{
-
-    margin: 0px auto;
-    width:650px;
-   text-align: center;
-   padding-top: 80px;
-   line-height: 47px;
+margin:0pxauto;
+width:650px;
+text-align:center;
+padding-top:80px;
+line-height:47px;
 }
-
-.passionhead h1{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: black;
-    font-size: 50px;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    margin: 0px;
-    padding: 0px;
+.passionheadh1{
+font-family:Verdana,Geneva,Tahoma,sans-serif;
+color:black;
+font-size:50px;
+letter-spacing:5px;
+text-transform:uppercase;
+margin:0px;
+padding:0px;
 }
-
-.passionhead p{
-
-    font-style: italic;
-    font-size: 21px;
-    letter-spacing: 2px;
-    margin: 0px;
-    padding: 0px;
+.passionheadp{
+font-style:italic;
+font-size:21px;
+letter-spacing:2px;
+margin:0px;
+padding:0px;
 }
-
 .wallpapers{
-
-    width: 1349px;
+width:1349px;
 }
-
-.wallpapers ul{
-
-    list-style-type: none;
-   display: flex;
-   padding:0px;
-   margin: 0px;
-   margin-top: 15px;
+.wallpapersul{
+list-style-type:none;
+display:flex;
+padding:0px;
+margin:0px;
+margin-top:15px;
 }
-
-.wallpapers ul li{
-
-       margin-left: 7px;
-       cursor: pointer;
+.wallpapersulli{
+margin-left:7px;
+cursor:pointer;
 }
-
 #galleryone{
-
-    margin-top: 66px;
+margin-top:66px;
 }
-
-.wallpapers ul li:hover{
-
-    opacity: 0.7;
+.wallpapersulli:hover{
+opacity:0.7;
 }
-
 #gallerytwo{
-
-    margin-bottom: 100px;
+margin-bottom:100px;
 }
-
 .five{
-
-    background-color:rgba(47, 46, 46, 1);
-    width: 100%;
-    height: 450px;
+background-color:rgba(47,46,46,1);
+width:100%;
+height:450px;
 }
-
 .mailcenter{
-
-    margin: 0px auto;
-    width: 1170px;
+margin:0pxauto;
+width:1170px;
 }
-
 .signuptext{
-
-    margin: 0px auto;
-    padding-top:70px;
+margin:0pxauto;
+padding-top:70px;
 }
-
 .sufoe{
-
-    padding: 0px;
-    margin: 0px;
-    text-align: center;
-    font-size: 20px;
-    color: #FCEF8B;
-    font-style: italic;
-    letter-spacing: 2px;
-    position: relative;
-    animation: etext 3s ease-out;
-
-
+padding:0px;
+margin:0px;
+text-align:center;
+font-size:20px;
+color:#FCEF8B;
+font-style:italic;
+letter-spacing:2px;
+position:relative;
+animation:etext3sease-out;
 }
-
 .emailadd{
-
-    margin-top: 60px;
+margin-top:60px;
 }
-
 .ed{
-
-    margin: 0px auto;
-    width: 705px;
-
+margin:0pxauto;
+width:705px;
 }
-
 .mailbox{
-
-    margin: 0px;
-    padding: 9px;
-    border: none;
-    font-size: 17px;
-    font-family: philosopher;
-    font-weight: bold;
-    width: 508px;
-    float: left;
+margin:0px;
+padding:9px;
+border:none;
+font-size:17px;
+font-family:philosopher;
+font-weight:bold;
+width:508px;
+float:left;
 }
-
 .subs{
-
-    font-family: philosopher;
-    margin: 0px;
-    color:rgba(47, 46, 46, 1);
-    padding: 8.5px 20px;
-    font-size: 18px;
-    background-color: #FCEF8B;
-    border:none;
-    cursor: pointer;
-    float:right;
-    width: 160px;
-    height: 37px;
-
+font-family:philosopher;
+margin:0px;
+color:rgba(47,46,46,1);
+padding:8.5px20px;
+font-size:18px;
+background-color:#FCEF8B;
+border:none;
+cursor:pointer;
+float:right;
+width:160px;
+height:37px;
 }
-
 .subs:hover{
-
-    transform: scale(1.1);
+transform:scale(1.1);
 }
-
-
 .contact_H{
-
-    padding: 0px;
-    margin: 35px;
-    text-align: center;
-    font-size: 20px;
-    color: #FCEF8B;
-    font-style: italic;
-    letter-spacing: 2px;
-    position: relative;
-    animation: etext 3s ease-in-out;
+padding:0px;
+margin:35px;
+text-align:center;
+font-size:20px;
+color:#FCEF8B;
+font-style:italic;
+letter-spacing:2px;
+position:relative;
+animation:etext3sease-in-out;
 }
-
 .contact_T{
-
-    padding: 0px;
-    text-align: center;
-    letter-spacing: 2px;
-    position: relative;
-    animation: etext 3s ease-in-out;
-    color: #FFFFFF;
-    font-style: normal;
-    margin: 0px;
-    font-size: 15px;
+padding:0px;
+text-align:center;
+letter-spacing:2px;
+position:relative;
+animation:etext3sease-in-out;
+color:#FFFFFF;
+font-style:normal;
+margin:0px;
+font-size:15px;
 }
-
-@keyframes etext{
-
-    from{ top:-50px; opacity: 0.01; }
-    to { top: 0px;}
+@keyframesetext{
+from{top:-50px;opacity:0.01;}
+to{top:0px;}
 }
-
 .social{
-
-    padding: 0px;
-    list-style-type: none;
-    display: flex;
-   width: 200px;
-   justify-content: center;
-   margin: 0px auto;
-   margin-top: 40px;
-   position: relative;
-   animation: social 3s ease-in-out;
-
+padding:0px;
+list-style-type:none;
+display:flex;
+width:200px;
+justify-content:center;
+margin:0pxauto;
+margin-top:40px;
+position:relative;
+animation:social3sease-in-out;
 }
-
-.social li{
-
-    margin-left: 5px;
-   transition: transform 1s;
+.socialli{
+margin-left:5px;
+transition:transform1s;
 }
-
-.social li:hover{
-
-    transform: rotateY(360deg) scale(1.7);
-
+.socialli:hover{
+transform:rotateY(360deg)scale(1.7);
 }
-
-
-@keyframes social{
-
-    from{ left:60px; opacity: 0.1; }
-    to{left: 0px; }
+@keyframessocial{
+from{left:60px;opacity:0.1;}
+to{left:0px;}
 }
-
 .new_collection{
-
-    width: 1150px;
-    margin: 0px auto;
-    height: 600px;
-    padding-bottom: 20px;
+width:1150px;
+margin:0pxauto;
+height:600px;
+padding-bottom:20px;
 }
-
-
 .new_collection_c{
-    width: 1150px;
-    margin: 0px auto;
-    height: 900px;
-    padding-bottom: 40px;
+width:1150px;
+margin:0pxauto;
+height:900px;
+padding-bottom:40px;
 }
-
 .n_c{
-
-    margin: 0px auto;
-    width: 700px;
-    padding-top: 70px;
+margin:0pxauto;
+width:700px;
+padding-top:70px;
 }
-
 .n_c_h{
-
-    text-align:center;
-    font-size: 45px;
-   font-family : Verdana, Geneva, Tahoma, sans-serif;
-   text-transform: uppercase;
-   letter-spacing: 4px;
-   margin-bottom: 0px;
-   padding: 0px;
-   position: relative;
-   animation: newcollection 2s;
+text-align:center;
+font-size:45px;
+font-family:Verdana,Geneva,Tahoma,sans-serif;
+text-transform:uppercase;
+letter-spacing:4px;
+margin-bottom:0px;
+padding:0px;
+position:relative;
+animation:newcollection2s;
 }
-
-@keyframes newcollection{
-    
-    from{ opacity: 0.1; left: 80px;}
-    to{ left: 0px;}
+@keyframesnewcollection{
+from{opacity:0.1;left:80px;}
+to{left:0px;}
 }
-
 .n_c_p{
-
-    text-align:center;
-    font-size: 20px;
-    letter-spacing: 2px;
-    font-style: italic;
-    margin: 0px;
-    padding: 0px;
-    margin-top: 14px;
-    position: relative;
-    animation: peroff 2s;
+text-align:center;
+font-size:20px;
+letter-spacing:2px;
+font-style:italic;
+margin:0px;
+padding:0px;
+margin-top:14px;
+position:relative;
+animation:peroff2s;
 }
-
-@keyframes peroff{
-     
-     from{ opacity: 0.1; left: 80px;}
-    to{ left: 0px;}
-
+@keyframesperoff{
+from{opacity:0.1;left:80px;}
+to{left:0px;}
 }
-
 .forshop{
-
-    width: 820px;
-    margin: 0px auto;
-    
+width:820px;
+margin:0pxauto;
 }
-
 .q_k{
-    visibility: hidden;
-    background-color: lightgrey;
-    text-transform: uppercase;
-    position: absolute;
-    bottom: 0px;
-    color: black;
-    font-family : philosopher;
-    width: 220px;
-    text-align: center;   
-    opacity: 0.6;
-    height: 0px;
-    transition: height 1s, visibility 1s;
-    overflow: hidden;
+visibility:hidden;
+background-color:lightgrey;
+text-transform:uppercase;
+position:absolute;
+bottom:0px;
+color:black;
+font-family:philosopher;
+width:220px;
+text-align:center;
+opacity:0.6;
+height:0px;
+transition:height1s,visibility1s;
+overflow:hidden;
 }
-
 .tie5{
-    
-    background-image: url("../images/tie5.png");
-    background-size: cover;
-    width: 220px;
-    height: 200px;
-    position: relative;
-    cursor: pointer;
-    
+background-image:url("../images/tie5.png");
+background-size:cover;
+width:220px;
+height:200px;
+position:relative;
+cursor:pointer;
 }
-
-
-.tie5:hover .q_k{
-    
-    visibility: visible;
-    height: 45px;
-    
+.tie5:hover.q_k{
+visibility:visible;
+height:45px;
 }
-
 #quick{
-    
-    position: relative;
-    top: 15px;
+position:relative;
+top:15px;
 }
-
-
 .tie6{
-    
-    background-image: url("../images/tie6.png");
-    background-size: cover;
-     width: 220px;
-    height: 200px;
-    position: relative;
-    cursor: pointer;
+background-image:url("../images/tie6.png");
+background-size:cover;
+width:220px;
+height:200px;
+position:relative;
+cursor:pointer;
 }
-
-.tie6:hover .q_k{
-    
-    
-    visibility: visible;
-    height: 45px;
+.tie6:hover.q_k{
+visibility:visible;
+height:45px;
 }
-
 .tie7{
-    
-    background-image: url("../images/tie11.png");
-    background-size: cover;
-     width: 220px;
-    height: 200px;
-    position: relative;
-    cursor: pointer;
+background-image:url("../images/tie11.png");
+background-size:cover;
+width:220px;
+height:200px;
+position:relative;
+cursor:pointer;
 }
-
-.tie7:hover .q_k{
-    
-   visibility: visible;
-    height: 45px;
+.tie7:hover.q_k{
+visibility:visible;
+height:45px;
 }
-
 .tie8{
-    
-    background-image: url("../images/tie8.png");
-    background-size: cover;
-     width: 220px;
-    height: 200px;
-    position: relative;
-    cursor: pointer;
+background-image:url("../images/tie8.png");
+background-size:cover;
+width:220px;
+height:200px;
+position:relative;
+cursor:pointer;
 }
-
-.tie8:hover .q_k{
-    
-    visibility: visible;
-    height: 45px;
+.tie8:hover.q_k{
+visibility:visible;
+height:45px;
 }
-
 .tie9{
-    
-    background-image: url("../images/tie9.png");
-    background-size: cover;
-     width: 220px;
-    height: 200px;
-    position: relative;
-    cursor: pointer;
+background-image:url("../images/tie9.png");
+background-size:cover;
+width:220px;
+height:200px;
+position:relative;
+cursor:pointer;
 }
-
-.tie9:hover .q_k{
-    
-    visibility: visible;
-    height: 45px;
+.tie9:hover.q_k{
+visibility:visible;
+height:45px;
 }
-
 .tie10{
-    
-    background-image: url("../images/tie10.png");
-    background-size: cover;
-     width: 220px;
-    height: 200px;
-    position: relative;
-    cursor: pointer;
+background-image:url("../images/tie10.png");
+background-size:cover;
+width:220px;
+height:200px;
+position:relative;
+cursor:pointer;
 }
-
-.tie10:hover .q_k{
-    
-    visibility: visible;
-    height: 45px;
+.tie10:hover.q_k{
+visibility:visible;
+height:45px;
 }
-
 .tie11{
-    
-    background-image: url("../images/tie7.png");
-    background-size: cover;
-     width: 220px;
-    height: 200px;
-    position: relative;
-    cursor: pointer;
+background-image:url("../images/tie7.png");
+background-size:cover;
+width:220px;
+height:200px;
+position:relative;
+cursor:pointer;
 }
-
-.tie11:hover .q_k{
-    
-    visibility: visible;
-    height: 45px;
+.tie11:hover.q_k{
+visibility:visible;
+height:45px;
 }
-
 .tie12{
-    
-    background-image: url("../images/tie12.png");
-    background-size: cover;
-     width: 220px;
-    height: 200px;
-    position: relative;
-    cursor: pointer;
+background-image:url("../images/tie12.png");
+background-size:cover;
+width:220px;
+height:200px;
+position:relative;
+cursor:pointer;
 }
-
-.tie12:hover .q_k{
-    
-    visibility: visible;
-    height: 45px;
+.tie12:hover.q_k{
+visibility:visible;
+height:45px;
 }
-
 .tie13{
-    
-    background-image: url("../images/tie13.png");
-    background-size: cover;
-     width: 220px;
-    height: 200px;
-    position: relative;
-    cursor: pointer;
+background-image:url("../images/tie13.png");
+background-size:cover;
+width:220px;
+height:200px;
+position:relative;
+cursor:pointer;
 }
-
-.tie13:hover .q_k{
-    
-    visibility: visible;
-    height: 45px;
+.tie13:hover.q_k{
+visibility:visible;
+height:45px;
 }
-
 .tie14{
-    
-    background-image: url("../images/tie14.png");
-    background-size: cover;
-     width: 220px;
-    height: 200px;
-    position: relative;
-    cursor: pointer;
+background-image:url("../images/tie14.png");
+background-size:cover;
+width:220px;
+height:200px;
+position:relative;
+cursor:pointer;
 }
-
-.tie14:hover .q_k{
-    
-    visibility: visible;
-    height: 45px;
+.tie14:hover.q_k{
+visibility:visible;
+height:45px;
 }
-
 .tie15{
-    
-    background-image: url("../images/tie15.png");
-    background-size: cover;
-     width: 220px;
-    height: 200px;
-    position: relative;
-    cursor: pointer;
+background-image:url("../images/tie15.png");
+background-size:cover;
+width:220px;
+height:200px;
+position:relative;
+cursor:pointer;
 }
-
-.tie15:hover .q_k{
-    
-    visibility: visible;
-    height: 45px;
+.tie15:hover.q_k{
+visibility:visible;
+height:45px;
 }
-
 .tie16{
-    
-    background-image: url("../images/tie16.png");
-    background-size: cover;
-     width: 220px;
-    height: 200px;
-    position: relative;
-    cursor: pointer;
+background-image:url("../images/tie16.png");
+background-size:cover;
+width:220px;
+height:200px;
+position:relative;
+cursor:pointer;
 }
-
-.tie16:hover .q_k{
-    
-    visibility: visible;
-    height: 45px;
+.tie16:hover.q_k{
+visibility:visible;
+height:45px;
 }
-
-
-.arrivals_prize ul{
-    
-    list-style-type: none;
-    display: flex;
-    padding: 0px;
-    margin: 0px;
+.arrivals_prizeul{
+list-style-type:none;
+display:flex;
+padding:0px;
+margin:0px;
 }
-
-.arrivals_prize ul li{
-    
-     margin-left: 90px;
-    margin-right: 102px;
+.arrivals_prizeulli{
+margin-left:90px;
+margin-right:102px;
 }
-
 #products_copy{
-    
-    margin-top: 20px;
+margin-top:20px;
 }
